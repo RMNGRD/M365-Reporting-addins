@@ -14,48 +14,11 @@
         <Override Locale="it-it" Value="GQCorp - Segnala messaggio" />
     </DisplayName>
     <Description DefaultValue="Tell GQCorp and Microsoft about issues related to a message and send them a copy.">
-        <Override Locale="ar-sa" Value="أخبر Microsoft بالمشاكل المتعلقة بهذه الرسالة وأرسل لهم نسخة منها." />
-        <Override Locale="bg-bg" Value="Кажете на Microsoft за проблеми, свързани с това съобщение, и им изпратете копие." />
-        <Override Locale="ca-es" Value="Comuniqueu a Microsoft els problemes relacionats amb aquest missatge i envieu-los-en una còpia." />
-        <Override Locale="cs-cz" Value="Řekněte Microsoftu o problémech souvisejících s touto zprávou a pošlete jim kopii." />
-        <Override Locale="da-dk" Value="Fortæl Microsoft om problemer vedrørende denne meddelelse, og send dem en kopi." />
         <Override Locale="de-de" Value="Informieren Sie Microsoft über Probleme im Zusammenhang mit dieser Nachricht, und senden Sie ihnen eine Kopie." />
-        <Override Locale="el-gr" Value="Ενημερώστε τη Microsoft σχετικά με ζητήματα που σχετίζονται με αυτό το μήνυμα και στείλτε ένα αντίγραφό του." />
         <Override Locale="en-gb" Value="Tell Microsoft about issues related to this message and send them a copy." />
         <Override Locale="es-es" Value="Informe a Microsoft sobre los problemas relacionados con este mensaje y envíeles una copia." />
-        <Override Locale="et-ee" Value="Saate Microsoftile kirjeldada selle sõnumiga seotud probleeme ja saata sõnumi koopia." />
-        <Override Locale="eu-es" Value="Eman Microsoft-i mezuaren arazoen berri eta bidali haren kopia bat." />
-        <Override Locale="fi-fi" Value="Kerro Microsoftille tätä viestiä koskevista ongelmista, ja lähetä siitä kopio." />
         <Override Locale="fr-fr" Value="Signaler à Microsoft les problèmes relatifs à ce message et en envoyer une copie." />
-        <Override Locale="gl-es" Value="Cóntalle a Microsoft problemas relacionados con esta mensaxe e envíalles unha copia." />
-        <Override Locale="he-il" Value="ספר ל- Microsoft על בעיות הקשורות להודעה זו ושלח לה עותק." />
-        <Override Locale="hi-in" Value="इस संदेश से संबंधित समस्याओं के बारे में Microsoft को बताएँ और उन्हें एक प्रतिलिपि भेजें." />
-        <Override Locale="hr-hr" Value="Prijavite Microsoftu probleme povezane s porukom i pošaljite im kopiju." />
-        <Override Locale="hu-hu" Value="A Microsoft értesítése az üzenettel kapcsolatos problémákról, és másolat csatolása az értesítéshez." />
-        <Override Locale="id-id" Value="Beri tahu Microsoft tentang masalah yang terkait dengan pesan ini lalu kirimkan salinannya." />
         <Override Locale="it-it" Value="Segnala a Microsoft i problemi relativi al messaggio e invia una copia." />
-        <Override Locale="ja-jp" Value="このメッセージに関連する問題について Microsoft に報告し、コピーを送信します。" />
-        <Override Locale="kk-kz" Value="Microsoft корпорациясына осы хабарға қатысты ақаулар туралы айтыңыз және көшірмесін жіберіңіз." />
-        <Override Locale="ko-kr" Value="이 메시지에 관련된 문제를 Microsoft에 알리고 복사본을 보냅니다." />
-        <Override Locale="lt-lt" Value="Praneškite „Microsoft“ apie problemas, susijusias su šiuo laišku, ir nusiųskite kopiją." />
-        <Override Locale="lv-lv" Value="Informēt Microsoft par problēmām saistībā ar šo ziņojumu un nosūtīt arī kopiju." />
-        <Override Locale="ms-my" Value="Beritahu Microsoft tentang isu yang berkaitan dengan mesej ini dan hantarkan salinan kepada mereka." />
-        <Override Locale="nl-nl" Value="Vertel Microsoft over problemen die gerelateerd zijn aan dit bericht en stuur een kopie." />
-        <Override Locale="pl-pl" Value="Poinformuj firmę Microsoft o problemach związanych z tą wiadomością i wyślij kopię do firmy Microsoft." />
-        <Override Locale="pt-br" Value="Informe à Microsoft sobre problemas relacionados a esta mensagem e envie uma cópia." />
-        <Override Locale="ro-ro" Value="Informați Microsoft dacă există probleme legate de acest mesaj și trimiteți-ne o copie." />
-        <Override Locale="ru-ru" Value="Сообщение Майкрософт о проблемах, связанных с этим сообщением, и отправка копии." />
-        <Override Locale="sk-sk" Value="Informujte spoločnosť Microsoft o problémoch v súvislosti s touto správou a odošlite jej kópiu." />
-        <Override Locale="sl-si" Value="Prijavite Microsoftu težave, povezane s tem sporočilom, in pošljite kopijo." />
-        <Override Locale="sr-cyrl-cs" Value="Реците корпорацији Microsoft о проблемима везаним за ову поруку и пошаљите им копију." />
-        <Override Locale="sr-latn-cs" Value="Recite korporaciji Microsoft o problemima vezanim za ovu poruku i pošaljite im kopiju." />
-        <Override Locale="sv-se" Value="Informera Microsoft om problem som rör detta meddelande och skicka dem en kopia." />
-        <Override Locale="th-th" Value="บอกให้ไมโครซอฟท์ทราบเกี่ยวกับปัญหาที่เกี่ยวข้องกับข้อความนี้ และส่งเป็นสำเนา" />
-        <Override Locale="tr-tr" Value="Microsoft'a bu iletiyle ilgili sorunları bildirin ve iletinin bir kopyasını gönderin." />
-        <Override Locale="uk-ua" Value="Повідомте корпорацію Майкрософт про проблеми, пов’язані з цим повідомленням, і надішліть копію." />
-        <Override Locale="vi-vn" Value="Báo cho Microsoft về các sự cố liên quan đến thư này và gửi cho họ một bản sao." />
-        <Override Locale="zh-cn" Value="将与此邮件相关的问题告知 Microsoft，并向其发送一个副本。" />
-        <Override Locale="zh-tw" Value="告訴 Microsoft 與此郵件相關的問題並傳送複本給 Microsoft。" />
     </Description>
     <IconUrl DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/ReportMessage64.png" />
     <HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/ReportMessage128.png" />
