@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
-    <Id>6046742c-3aee-485e-a4ac-92ab7199db2e</Id>
-    <Version>1.0.17.906</Version>
-    <ProviderName>Microsoft Corporation</ProviderName>
+    <!-- New ID - providername - description / add 1 AppDomain. -->
+    <!-- <Id>6046742c-3aee-485e-a4ac-92ab7199db2e</Id> -->
+    <Id>f2d07e64-803f-4cc7-82f4-c392a6d8218b</Id>
+    <Version>1.0.0.001</Version>
+    <ProviderName>GQCorp</ProviderName>
     <DefaultLocale>en-US</DefaultLocale>
     <DisplayName DefaultValue="Report Message">
         <Override Locale="de-de" Value="Nachricht melden" />
@@ -198,6 +200,7 @@
         </Hosts>
         <Resources>
             <bt:Images>
+                <!-- Change Icons Location from ipagave.azurewebsites.net to GitHub. -->
                 <bt:Image id="icon16ReportMessage" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/ReportMessage16.png" />
                 <bt:Image id="icon32ReportMessage" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/ReportMessage32.png" />
                 <bt:Image id="icon80ReportMessage" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/ReportMessage80.png" />
