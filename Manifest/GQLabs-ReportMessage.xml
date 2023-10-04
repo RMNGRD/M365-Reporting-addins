@@ -6,12 +6,12 @@
     <Version>1.0.0.001</Version>
     <ProviderName>GQCorp</ProviderName>
     <DefaultLocale>en-US</DefaultLocale>
-    <DisplayName DefaultValue="Report Message">
-        <Override Locale="de-de" Value="Nachricht melden" />
-        <Override Locale="en-gb" Value="Report Message" />
-        <Override Locale="es-es" Value="Informar de mensaje" />
-        <Override Locale="fr-fr" Value="Signaler le message" />
-        <Override Locale="it-it" Value="Segnala messaggio" />
+    <DisplayName DefaultValue="GQCorp - Report Message">
+        <Override Locale="de-de" Value="GQCorp - Nachricht melden" />
+        <Override Locale="en-gb" Value="GQCorp - Report Message" />
+        <Override Locale="es-es" Value="GQCorp - Informar de mensaje" />
+        <Override Locale="fr-fr" Value="GQCorp - Signaler le message" />
+        <Override Locale="it-it" Value="GQCorp - Segnala messaggio" />
     </DisplayName>
     <Description DefaultValue="Tell GQCorp and Microsoft about issues related to a message and send them a copy.">
         <Override Locale="ar-sa" Value="أخبر Microsoft بالمشاكل المتعلقة بهذه الرسالة وأرسل لهم نسخة منها." />
