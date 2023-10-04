@@ -11,7 +11,7 @@
         <Override Locale="fr-fr" Value="Signaler le message" />
         <Override Locale="it-it" Value="Segnala messaggio" />
     </DisplayName>
-    <Description DefaultValue="Tell Microsoft about issues related to a message and send them a copy.">
+    <Description DefaultValue="Tell GQCorp and Microsoft about issues related to a message and send them a copy.">
         <Override Locale="ar-sa" Value="أخبر Microsoft بالمشاكل المتعلقة بهذه الرسالة وأرسل لهم نسخة منها." />
         <Override Locale="bg-bg" Value="Кажете на Microsoft за проблеми, свързани с това съобщение, и им изпратете копие." />
         <Override Locale="ca-es" Value="Comuniqueu a Microsoft els problemes relacionats amb aquest missatge i envieu-los-en una còpia." />
@@ -55,8 +55,8 @@
         <Override Locale="zh-cn" Value="将与此邮件相关的问题告知 Microsoft，并向其发送一个副本。" />
         <Override Locale="zh-tw" Value="告訴 Microsoft 與此郵件相關的問題並傳送複本給 Microsoft。" />
     </Description>
-    <IconUrl DefaultValue="https://ipagave.azurewebsites.net/Images/ReportMessage64.png" />
-    <HighResolutionIconUrl DefaultValue="https://aka.ms/ipagave/images/ReportMessage128.png" />
+    <IconUrl DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/ReportMessage64.png" />
+    <HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/ReportMessage128.png" />
     <SupportUrl DefaultValue="https://support.office.com/en-us/article/Use-the-Report-Message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2" />
     <AppDomains>
         <AppDomain>https://aka.ms</AppDomain>
@@ -64,6 +64,7 @@
         <AppDomain>https://technet.microsoft.com</AppDomain>
         <AppDomain>https://support.office.com</AppDomain>
         <AppDomain>https://webservice.protection.outlook.com</AppDomain>
+        <AppDomain>https://raw.githubusercontent.com</AppDomain>
     </AppDomains>
     <Hosts>
         <Host Name="Mailbox" />
@@ -197,27 +198,27 @@
         </Hosts>
         <Resources>
             <bt:Images>
-                <bt:Image id="icon16ReportMessage" DefaultValue="https://aka.ms/ipagave/images/ReportMessage16.png" />
-                <bt:Image id="icon32ReportMessage" DefaultValue="https://aka.ms/ipagave/images/ReportMessage32.png" />
-                <bt:Image id="icon80ReportMessage" DefaultValue="https://aka.ms/ipagave/images/ReportMessage80.png" />
-                <bt:Image id="icon16Junk" DefaultValue="https://aka.ms/ipagave/images/Junk16.png" />
-                <bt:Image id="icon32Junk" DefaultValue="https://aka.ms/ipagave/images/Junk32.png" />
-                <bt:Image id="icon80Junk" DefaultValue="https://aka.ms/ipagave/images/Junk80.png" />
-                <bt:Image id="icon16Phishing" DefaultValue="https://aka.ms/ipagave/images/Phishing16.png" />
-                <bt:Image id="icon32Phishing" DefaultValue="https://aka.ms/ipagave/images/Phishing32.png" />
-                <bt:Image id="icon80Phishing" DefaultValue="https://aka.ms/ipagave/images/Phishing80.png" />
-                <bt:Image id="icon16NotJunk" DefaultValue="https://aka.ms/ipagave/images/NotJunk16.png" />
-                <bt:Image id="icon32NotJunk" DefaultValue="https://aka.ms/ipagave/images/NotJunk32.png" />
-                <bt:Image id="icon80NotJunk" DefaultValue="https://aka.ms/ipagave/images/NotJunk80.png" />
-                <bt:Image id="icon16Options" DefaultValue="https://aka.ms/ipagave/images/Options16.png" />
-                <bt:Image id="icon32Options" DefaultValue="https://aka.ms/ipagave/images/Options32.png" />
-                <bt:Image id="icon80Options" DefaultValue="https://aka.ms/ipagave/images/Options80.png" />
-                <bt:Image id="icon16Help" DefaultValue="https://aka.ms/ipagave/images/Help16.png" />
-                <bt:Image id="icon32Help" DefaultValue="https://aka.ms/ipagave/images/Help32.png" />
-                <bt:Image id="icon80Help" DefaultValue="https://aka.ms/ipagave/images/Help80.png" />
-                <bt:Image id="iconStatusSucceeded" DefaultValue="https://aka.ms/ipagave/images/Succeeded.png" />
-                <bt:Image id="iconStatusFailed" DefaultValue="https://aka.ms/ipagave/images/Failed.png" />
-                <bt:Image id="iconStatusWarning" DefaultValue="https://aka.ms/ipagave/images/Warning.png" />
+                <bt:Image id="icon16ReportMessage" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/ReportMessage16.png" />
+                <bt:Image id="icon32ReportMessage" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/ReportMessage32.png" />
+                <bt:Image id="icon80ReportMessage" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/ReportMessage80.png" />
+                <bt:Image id="icon16Junk" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Junk16.png" />
+                <bt:Image id="icon32Junk" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Junk32.png" />
+                <bt:Image id="icon80Junk" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Junk80.png" />
+                <bt:Image id="icon16Phishing" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Phishing16.png" />
+                <bt:Image id="icon32Phishing" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Phishing32.png" />
+                <bt:Image id="icon80Phishing" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Phishing80.png" />
+                <bt:Image id="icon16NotJunk" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/NotJunk16.png" />
+                <bt:Image id="icon32NotJunk" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/NotJunk32.png" />
+                <bt:Image id="icon80NotJunk" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/NotJunk80.png" />
+                <bt:Image id="icon16Options" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Options16.png" />
+                <bt:Image id="icon32Options" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Options32.png" />
+                <bt:Image id="icon80Options" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Options80.png" />
+                <bt:Image id="icon16Help" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Help16.png" />
+                <bt:Image id="icon32Help" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Help32.png" />
+                <bt:Image id="icon80Help" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Help80.png" />
+                <bt:Image id="iconStatusSucceeded" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Succeeded.png" />
+                <bt:Image id="iconStatusFailed" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Failed.png" />
+                <bt:Image id="iconStatusWarning" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Warning.png" />
             </bt:Images>
             <bt:Urls>
                 <bt:Url id="functionFile" DefaultValue="https://ipagave.azurewebsites.net/ReportMessage/FunctionFile.html" />
@@ -506,27 +507,27 @@
             </Hosts>
             <Resources>
                 <bt:Images>
-                    <bt:Image id="icon16ReportMessage" DefaultValue="https://aka.ms/ipagave/images/ReportMessage16.png" />
-                    <bt:Image id="icon32ReportMessage" DefaultValue="https://aka.ms/ipagave/images/ReportMessage32.png" />
-                    <bt:Image id="icon80ReportMessage" DefaultValue="https://aka.ms/ipagave/images/ReportMessage80.png" />
-                    <bt:Image id="icon16Junk" DefaultValue="https://aka.ms/ipagave/images/Junk16.png" />
-                    <bt:Image id="icon32Junk" DefaultValue="https://aka.ms/ipagave/images/Junk32.png" />
-                    <bt:Image id="icon80Junk" DefaultValue="https://aka.ms/ipagave/images/Junk80.png" />
-                    <bt:Image id="icon16Phishing" DefaultValue="https://aka.ms/ipagave/images/Phishing16.png" />
-                    <bt:Image id="icon32Phishing" DefaultValue="https://aka.ms/ipagave/images/Phishing32.png" />
-                    <bt:Image id="icon80Phishing" DefaultValue="https://aka.ms/ipagave/images/Phishing80.png" />
-                    <bt:Image id="icon16NotJunk" DefaultValue="https://aka.ms/ipagave/images/NotJunk16.png" />
-                    <bt:Image id="icon32NotJunk" DefaultValue="https://aka.ms/ipagave/images/NotJunk32.png" />
-                    <bt:Image id="icon80NotJunk" DefaultValue="https://aka.ms/ipagave/images/NotJunk80.png" />
-                    <bt:Image id="icon16Options" DefaultValue="https://aka.ms/ipagave/images/Options16.png" />
-                    <bt:Image id="icon32Options" DefaultValue="https://aka.ms/ipagave/images/Options32.png" />
-                    <bt:Image id="icon80Options" DefaultValue="https://aka.ms/ipagave/images/Options80.png" />
-                    <bt:Image id="icon16Help" DefaultValue="https://aka.ms/ipagave/images/Help16.png" />
-                    <bt:Image id="icon32Help" DefaultValue="https://aka.ms/ipagave/images/Help32.png" />
-                    <bt:Image id="icon80Help" DefaultValue="https://aka.ms/ipagave/images/Help80.png" />
-                    <bt:Image id="iconStatusSucceeded" DefaultValue="https://aka.ms/ipagave/images/Succeeded.png" />
-                    <bt:Image id="iconStatusFailed" DefaultValue="https://aka.ms/ipagave/images/Failed.png" />
-                    <bt:Image id="iconStatusWarning" DefaultValue="https://aka.ms/ipagave/images/Warning.png" />
+                    <bt:Image id="icon16ReportMessage" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/ReportMessage16.png" />
+                    <bt:Image id="icon32ReportMessage" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/ReportMessage32.png" />
+                    <bt:Image id="icon80ReportMessage" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/ReportMessage80.png" />
+                    <bt:Image id="icon16Junk" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Junk16.png" />
+                    <bt:Image id="icon32Junk" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Junk32.png" />
+                    <bt:Image id="icon80Junk" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Junk80.png" />
+                    <bt:Image id="icon16Phishing" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Phishing16.png" />
+                    <bt:Image id="icon32Phishing" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Phishing32.png" />
+                    <bt:Image id="icon80Phishing" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Phishing80.png" />
+                    <bt:Image id="icon16NotJunk" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/NotJunk16.png" />
+                    <bt:Image id="icon32NotJunk" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/NotJunk32.png" />
+                    <bt:Image id="icon80NotJunk" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/NotJunk80.png" />
+                    <bt:Image id="icon16Options" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Options16.png" />
+                    <bt:Image id="icon32Options" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Options32.png" />
+                    <bt:Image id="icon80Options" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Options80.png" />
+                    <bt:Image id="icon16Help" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Help16.png" />
+                    <bt:Image id="icon32Help" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Help32.png" />
+                    <bt:Image id="icon80Help" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Help80.png" />
+                    <bt:Image id="iconStatusSucceeded" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Succeeded.png" />
+                    <bt:Image id="iconStatusFailed" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Failed.png" />
+                    <bt:Image id="iconStatusWarning" DefaultValue="https://raw.githubusercontent.com/RMNGRD/M365-Reporting-addins/main/Images/Warning.png" />
                 </bt:Images>
                 <bt:Urls>
                     <bt:Url id="functionFile" DefaultValue="https://ipagave.azurewebsites.net/ReportMessage/FunctionFile.html" />
